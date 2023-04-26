@@ -1,0 +1,709 @@
+@media all and (min-width: 1920px){
+	/* .Main_Area{
+		max-width: 1440px;
+		width: 100%;
+		margin: auto;
+	} */
+}
+
+
+@media all and (max-width: 1199px){
+	.headding_1 {
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.headding_2 {
+		font-size: 33px;
+		line-height: 42px;
+	}
+	.headding_3 {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	p{
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.service_check li{
+		font-size: 20px;
+		line-height: 22px;
+	}
+	.single_Tarifs label {
+		line-height: 24px;
+		font-size: 20px;
+	}
+	.ouvrages_Banner_content .headding_2 {
+		line-height: 50px;
+	}
+	.Accueil_Banner_content .headding_2{
+		line-height: 50px;
+	}
+	.ouvrages_Notre_content p {
+		font-size: 25px;
+		line-height: 36px;
+	}
+
+	/************************* Produits Page Css ******************************/
+	.Produits_Banner_content p {
+		font-size: 28px;
+	}
+	.single_Fonctionnalites .Fonctionnalites_title {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.headding_blue {
+		font-size: 30px;
+		line-height: 38px;
+	}
+	.headding_black{
+		font-size: 30px;
+		line-height: 38px;
+	}
+	.produits_Utilisez_area {
+		padding: 150px 39px;
+	}
+	.produits_Utilisez_area {
+		padding: 120px 39px;
+	}
+	/************************* Accueil Page Css ******************************/
+	.Accueil_Fonctionnalites_content{
+		gap: 40px 80px;
+	}
+	
+
+}
+@media all and (min-width: 992px){
+	.header-menu{
+		display: flex !important;
+	}
+}
+@media all and (max-width: 991px){
+	.headding_3 {
+		font-size: 18px;
+	}
+	p {
+		font-size: 18px;
+	}
+	
+	.service_check li{
+		font-size: 18px;
+	}
+	.single_Tarifs label {
+		font-size: 18px;
+	}
+	/* ----------------------Mobile Menu Start-------------------*/
+	.header-button {
+		display: none;
+	}
+	.mobile-headerbtn{
+		display: block;
+	}
+	.mobile-menu {
+		display: block;
+	}
+	.header-nav nav{
+		position: absolute;
+		width: calc(100% + 300px);
+		top: 102%;
+		left: -150px;
+		background: #fff;
+		z-index: 99999;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+		padding:40px 0;
+		box-sizing: border-box;
+		text-align: center;
+		display: none;
+	}
+	.header-nav nav ul{
+		flex-direction: column;	
+	}
+	.header-nav nav ul li{
+		margin-bottom: 30px;
+	}
+	/* ----------------------Mobile Menu End-------------------*/
+
+	.header-main {
+		position: relative;
+		padding: 18px 8px;
+	}
+
+	.ouvrages_Banner_content {
+		padding: 100px 0px;
+		padding-left: 10px;
+	}
+	.common_title_content {
+		padding: 50px 10px;
+	}
+	.Patrimoine_content {
+		padding: 70px 10px;
+	}
+	.ouvrages_Notre_content p {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	.ouvrages_Notre_content {
+		padding: 70px 0px;
+	}
+	.single_iqoa {
+		height: 100%;
+	}
+	.single_iqoa p{
+		padding: 15px;
+		padding-top: 0px;
+	}
+	.single_iqoa .headding_3{
+		padding: 15px;
+	} 
+	.Pourquoi_content {
+		padding: 50px 0px;
+		gap: 80px 0px;
+	}
+	.ouvrages_savoir_content {
+		padding: 90px 0px;
+	}
+	.footer_content {
+		padding: 46px 0px;
+	}
+
+	
+
+
+
+	/************************* Produits Page Css ******************************/
+	.headding_black {
+		font-size: 26px;
+		line-height: 30px;
+	}
+	.Produits_Banner_content{
+		padding-top: 70px;
+	  }
+	.Produits_Banner_content p {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.headding_blue {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.produits_Utiliser_content p {
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.produits_Unlogiciel_area {
+		padding-top: 100px;
+		padding-bottom: 105px;
+	}
+	.single_Tarifs ul li {
+		font-size: 19px;
+		line-height: 23px;
+	}
+	.produits_Utilisez_area {
+		padding: 100px 5px;
+	}
+	.produits_Utilisez_content p {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	.produits_Service_area {
+		padding: 60px 0px;
+	}
+	.Tarifs_content{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.Tarifs_content :nth-child(3).single_Tarifs{
+		grid-column: span 2;
+		max-width: 450px;
+		width: 100%;
+		margin: auto;
+	}
+
+	/************************* Accueil Page Css ******************************/
+	.Accueil_Banner_content{
+		padding: 200px 0px 60px 10px;
+	}
+	.Accueil_Fonctionnalites_content{
+		gap: 40px 60px;
+	}
+	.section_title2 {
+		padding: 60px 0px;
+	}
+	.Accueil_Assitance_area .section_title2 {
+		padding: 65px 0px;
+	}
+	.Accueil_Quels_content {
+		padding: 70px 0px;
+	}
+	.single_Quels {
+		padding-top: 15px;
+		padding-bottom: 20px;
+	}
+	.single_Quels .headding_3 {
+		padding-top: 50px;
+	}
+
+
+}
+
+@media all and (max-width: 767px){
+	.headding_1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.headding_2 {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	.headding_3 {
+		font-size: 16px;
+	}
+	p {
+		font-size: 16px;
+	}
+	.ouvrages_Banner_content .headding_2 {
+		line-height: 40px;
+	}
+	.Accueil_Banner_content .headding_2{
+		line-height: 40px;
+	}
+	.ouvrages_Notre_content p {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.ouvrages_Iqoa_content {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.single_iqoa .headding_3 {
+		padding: 20px 15px;
+		padding-bottom: 6px;
+	}
+	.single_iqoa p {
+		padding: 10px 15px;
+		padding-top: 6px;
+	}
+	.ouvrages_Iqoa_content :nth-child(1).single_iqoa{
+		padding-right: 0px;
+	}
+	.ouvrages_Iqoa_content :nth-child(5).single_iqoa{
+		padding-right: 0px;
+	}
+
+	.ouvrages_Iqoa_content .single_iqoa:nth-of-type(1) {
+		order: 1;
+		padding-bottom: 10px;
+	}
+	.ouvrages_Iqoa_content .single_iqoa:nth-of-type(2) {
+		order: 2;
+	}
+	.ouvrages_Iqoa_content .single_iqoa:nth-of-type(3) {
+		order: 4;
+	}
+	.ouvrages_Iqoa_content .single_iqoa:nth-of-type(4) {
+		order: 3;
+		padding-bottom: 10px;
+	}
+	.ouvrages_Iqoa_content .single_iqoa:nth-of-type(5) {
+		order: 5;
+		padding-bottom: 10px;
+	}
+	.ouvrages_Iqoa_content .single_iqoa:nth-of-type(6) {
+		order: 6;
+	}
+	.ouvrages_Iqoa_content .single_iqoa:nth-of-type(7) {
+		order: 8;
+	}
+	.ouvrages_Iqoa_content .single_iqoa:nth-of-type(8) {
+		order: 7;
+		padding-bottom: 10px;
+	}
+
+
+	.logiciel_bottom p {
+		font-size: 22px;
+	}
+	.Pourquoi_content {
+		padding: 30px 0px;
+		gap: 40px 0px;
+	}
+	.pourquoi_icon {
+		height: 80px;
+		width: 80px;
+	}
+	.pourquoi_icon img {
+		width: 50px;
+	}	
+
+	.Patrimoine_content p {
+		padding-top: 12px;
+	}
+
+	/************************* Produits Page Css ******************************/
+
+	.Produits_Banner_content p {
+		font-size: 20px;
+		line-height: 29px;
+	}
+	.Produits_modeliser_area {
+		margin-top: 60px;
+	}
+	.Produits_modeliser_content {
+		padding: 50px 0px;
+	}
+	.ouvrages_Logiciel_content {
+		padding: 60px 0px;
+	}
+	.Fonctionnalites_content {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.Fonctionnalites_content :nth-child(2).single_Fonctionnalites{
+		padding-right: 0px;
+	}
+	.single_Fonctionnalites p {
+		padding-top: 12px;
+	}
+	.produits_Legendes_content {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.produits_Legendes_content .single_Legendes:nth-of-type(3) {
+		order: 4;
+	}
+	.produits_Legendes_content .single_Legendes p {
+		padding-top: 12px;
+	}
+	.produits_Legendes_content :nth-child(1).single_Legendes {
+		padding: 20px 15px;
+	}
+	.produits_Legendes_content :nth-child(4).single_Legendes {
+		padding: 20px 15px;
+	}
+	.produits_Insertion_content {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.produits_Insertion_content :nth-child(1).single_Insertion {
+		padding: 20px 15px;
+	}
+	.single_Insertion p {
+		padding-top: 12px;
+	}
+	.produits_Des_content {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.single_Des p {
+		padding-top: 12px;
+	}
+	.produits_Des_content :nth-child(2).single_Des {
+		padding: 20px 15px;
+	}
+	.produits_Des_content :nth-child(3).single_Des {
+		padding: 20px 15px;
+	}
+	.produits_Des_content .single_Des:nth-of-type(1) {
+		order: 1;
+	}
+	.produits_Des_content .single_Des:nth-of-type(2) {
+		order: 2;
+		padding-bottom: 30px;
+	}
+	.produits_Des_content .single_Des:nth-of-type(3) {
+		order: 4;	
+	}
+	.produits_Des_content .single_Des:nth-of-type(4) {
+		order: 3;
+	}
+	.produits_Utiliser_area {
+		padding: 60px 2px;
+	}
+	.produits_Utiliser_content .headding_2 {
+		padding-bottom: 30px;
+	}
+	.produits_Utiliser_content p {
+		padding-bottom: 25px;
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.produits_Unlogiciel_area {
+		padding-top: 55px;
+		padding-bottom: 60px;
+	}
+	.produits_Unlogiciel_content .headding_black {
+		padding-bottom: 20px;
+	}
+	.produits_Unlogiciel_content p {
+		padding-bottom: 20px;
+	}
+	.Unlogiciel_icon img {
+		width: 60px;
+	}
+	.Unlogiciel_icon {
+		max-width: 285px;
+	}
+	.single_Tarifs label {
+		font-size: 16px;
+	}
+	.single_Tarifs ul li .form-check {
+		gap: 0px 15px;
+	}
+	.service_check li {
+		gap: 0px 15px;
+	}
+	.single_Tarifs ul li {
+		font-size: 16px;
+		padding-bottom: 28px;
+	}
+	.single_Tarifs p {
+		padding: 20px 0px;
+	}
+	.Tarifs_bold_pera {
+		padding-top: 5px !important;
+	}
+	.single_Questions p {
+		padding-top: 16px;
+	}
+	.Questions_padding {
+		padding-top: 16px !important;
+	}
+
+
+	.Tarifs_content{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.Tarifs_content .single_Tarifs{
+		max-width: 450px;
+		width: 100%;
+		margin: auto;
+	}
+	.Tarifs_content :nth-child(3).single_Tarifs{
+		grid-column: span 1;
+	}
+
+	/************************* Accueil Page Css ******************************/
+	.Accueil_Banner_content{
+		padding: 150px 0px 60px 10px;
+	}
+	.section_title2 {
+		padding: 50px 0px;
+		padding-bottom: 20px;
+	}
+	.Accueil_Assitance_area .section_title2 {
+		padding: 55px 0px;
+		padding-bottom: 25px;
+	}
+	.Accueil_Quels_content {
+		padding: 50px 0px;
+	}
+	.single_Quels .headding_3 {
+		padding-top: 30px;
+		padding-bottom: 12px;
+	}
+	.single_Quels img {
+		max-width: 150px;
+	}
+	.Accueil_Fonctionnalites_content{
+		padding-top: 50px;
+		padding-bottom: 80px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.Accueil_single_Fonctionnalites .headding_3{
+		padding-bottom: 12px;
+	}
+	.Accueil_Fonctionnalites_content :nth-child(1).Accueil_single_Fonctionnalites {
+		order: 1;
+	}
+	.Accueil_Fonctionnalites_content :nth-child(2).Accueil_single_Fonctionnalites {
+		order: 2;
+		margin-bottom: 30px;
+	}
+	.Accueil_Fonctionnalites_content :nth-child(3).Accueil_single_Fonctionnalites {
+		order: 4;
+	}
+	.Accueil_Fonctionnalites_content :nth-child(4).Accueil_single_Fonctionnalites {
+		order: 3;
+	}
+	.Accueil_Fonctionnalites_content :nth-child(5).Accueil_single_Fonctionnalites {
+		order: 5;
+	}
+	.Accueil_Fonctionnalites_content :nth-child(6).Accueil_single_Fonctionnalites {
+		order: 6;
+	}
+}
+
+@media all and (max-width:575px){
+	.custom_btn {
+		font-size: 16px;
+	}
+	.headding_1 {
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.headding_2 {
+		font-size: 24px;
+	}
+	.ouvrages_Banner_content {
+		padding: 80px 0px;
+		padding-left: 0px;
+	}
+	.common_title_content {
+		padding: 30px 10px;
+	}
+	.Patrimoine_content {
+		padding: 40px 0px;
+	}
+	.ouvrages_Notre_content {
+		padding: 40px 0px;
+	}
+	.ouvrages_Notre_content p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.ouvrages_Logiciel_content {
+		padding: 45px 0px;
+	}
+	.logiciel_bottom {
+		flex-wrap: wrap;
+	}
+	.logiciel_bottom p {
+		font-size: 18px;
+	}
+	.single_pourquoi .headding_3 {
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	.Pourquoi_content {
+		gap: 20px 0px;
+	}
+	.single_pourquoi {
+		padding: 20px 40px 20px 40px;
+	}
+	.single_iqoa .headding_3 {
+		padding-bottom: 5px;
+	}
+	.ouvrages_savoir_content {
+		padding: 45px 0px;
+	}
+
+
+	.footer_content {
+		gap:25px 47px;
+	}
+	.footer_content {
+		justify-content: space-evenly;
+	}
+	.footer_content .single_footer:nth-of-type(3) {
+		order: -2;
+	}
+	.footer_content .single_footer:nth-of-type(4) {
+		order: -1;
+	}
+
+
+	/************************* Produits Page Css ******************************/
+	.Produits_title .headding_2 {
+		padding-bottom: 0px;
+	}
+	.Fonctionnalites_content {
+		padding: 54px 0px;
+		gap: 40px;
+	}
+	.produits_Utilisez_area {
+		padding: 60px 5px;
+	}
+	.produits_Plusieurs_area {
+		padding: 60px 0px;
+	}
+	.single_Tarifs ul li .form-check-input {
+		height: 20px;
+		width: 20px;
+	}
+	.single_Tarifs {
+		padding: 25px;
+		border-radius: 25px;
+	}
+	.Tarifs_bold_pera {
+		padding-bottom: 20px;
+	}
+	.single_Tarifs ul li {
+		font-size: 16px;
+		padding-bottom: 22px;
+	}
+	.single_Questions {
+		border-radius: 25px;
+		padding: 20px;
+	}
+	.produits_Utilisez_content p {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.produits_Utilisez_content .headding_2 {
+		padding-bottom: 25px;
+	}
+	.bottom_utilisez {
+		padding-top: 25px;
+	}
+	.produits_Utilisez_content p {
+		padding-bottom: 25px;
+	}
+	.produits_Plusieurs_content .headding_2 {
+		padding-bottom: 25px;
+	}
+
+}
+
+
+@media all and (max-width:450px){
+	.header-nav nav ul li {
+		margin-bottom: 20px;
+	}
+	.single_pourquoi {
+		padding: 20px 10px;
+	}
+	.pourquoi_icon {
+		height: 60px;
+		width: 60px;
+	}
+	.pourquoi_icon img {
+		width: 30px;
+	}
+	.footer_content {
+		padding: 30px 0px;
+	}
+
+	/************************* Produits Page Css ******************************/
+	.Produits_Banner_content .headding_2 {
+		padding: 20px 0px;
+	}
+	.headding_blue {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.produits_Service_area {
+		padding-top: 20px;
+	}
+	.headding_black {
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	/************************* Accueil Page Css ******************************/
+	.Accueil_Quels_content{
+		gap: 30px 30px ;
+	}
+	.single_Quels img {
+		max-width: 120px;
+	}
+	.single_Quels .headding_3 {
+		padding-top: 20px;
+	}
+}
+@media all and (max-width:410px){
+	.single_footer ul li {
+		text-align: center;
+	}
+	.footer_content .single_footer:nth-of-type(2) {
+		margin-top: -20px;
+	}
+}
+
+
+@media all and (max-width:375px){
+
+}
